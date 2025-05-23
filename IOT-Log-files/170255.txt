@@ -1,0 +1,16 @@
+[iCamera]Upgrade previous version: 4.50.14.3097
+
+[iCamera]MODEL[0]:, VERSION[12]:4.50.14.3339, type:1
+
+[ASSIS]url:https://s3-us-west-2.amazonaws.com/wuv2/upgrade/HL_PAN3/firmware/4.50.14.3339.tar, MD5:f7f15ee4da51165896a6cbb4e4cd1504
+[ASSIS]https_download times=1000, ret=1
+[ASSIS]https_download times=999, ret=1
+[ASSIS]https_download times=998, ret=0
+[ASSIS][MD5] get_file_md5: f7f15ee4da51165896a6cbb4e4cd1504
+[ASSIS]Down file finished and the md5 is same
+[ASSIS]set_update_update_status UPGRADE_STATE_INSTALLING
+[ASSIS] mv /tmp/img /tmp/Upgrade.tar 
+[ASSIS]tar -xvf /tmp/Upgrade.tar -C /tmp/ 
+[ASSIS] ingenic fw upgrade run!
+[ASSIS]set_update_update_status UPGRADE_STATE_INSTALLED
+[ASSIS]
